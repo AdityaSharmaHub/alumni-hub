@@ -27,11 +27,12 @@ export function SignupForm({
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
+  const apiUrl = process.env.API_URL;
 
   const handleSignup = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:4000/api/user/register", {
+      const res = await axios.post(`${apiUrl}/api/user/register`, {
         name,
         email,
         password,

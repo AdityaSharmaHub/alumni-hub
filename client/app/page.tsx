@@ -12,6 +12,8 @@ import {
 import Testimonials from "@/components/testimonials/testimonials";
 import NavigationCards from "@/components/navcards/Navcards";
 
+export const apiUrl = process.env.API_URL;
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
