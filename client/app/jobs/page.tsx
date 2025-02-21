@@ -5,8 +5,6 @@ import { BriefcaseIcon, ArrowRight } from "lucide-react";
 export default function JobsPage() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
-       
-
       <section id="jobs" className="flex-1 px-6 py-20 bg-white">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-12">
           <div className="w-full md:w-1/2 space-y-6">

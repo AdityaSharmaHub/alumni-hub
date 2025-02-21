@@ -9,7 +9,7 @@ import {
   Telescope,
   Users,
 } from "lucide-react";
-import Testimonials from "@/components/testimonials/Testimonials";
+import Testimonials from "@/components/testimonials/testimonials";
 import NavigationCards from "@/components/navcards/Navcards";
 
 export default function Home() {
